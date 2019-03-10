@@ -16,6 +16,10 @@
 1. 使用OpenGL进行绘制显示时,各个面片的颜色的RGB值采用面片的深度的值的归一化的值进行表示（深度越深，颜色越浅）  
 2.首先可以根据提示选择加载6中不同obj，然后可以选择显示正面、侧面或顶面，然后将输出过程中各个步骤所使用的时间，示例如图，更多obj可使用程序进行进一步操作，效果图如下：  
 ![xiaoguo](https://github.com/geekzzz/IntervalScanLine/blob/master/preview/2.png)  
+法线着色效果：  
+![xiaoguo](https://github.com/geekzzz/IntervalScanLine/blob/master/preview/6.png)  
+![xiaoguo](https://github.com/geekzzz/IntervalScanLine/blob/master/preview/7.png)  
+其他物体效果：  
 ![xiaoguo](https://github.com/geekzzz/IntervalScanLine/blob/master/preview/3.png)  
 ![xiaoguo](https://github.com/geekzzz/IntervalScanLine/blob/master/preview/4.png)  
 ![xiaoguo](https://github.com/geekzzz/IntervalScanLine/blob/master/preview/5.png)  
