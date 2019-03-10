@@ -14,10 +14,10 @@
 （5）void Update_AET();//更新AET中边的数据  
 三、使用及效果示例：    
 1. 使用OpenGL进行绘制显示时,各个面片的颜色的RGB值采用面片的深度的值的归一化的值进行表示（深度越深，颜色越浅）  
-2.该算法解决了贯穿的问题，可以使用obj进行测试，如果要使用我提供的obj进行贯穿测试，请使用深度值进行作色，否则由于贯穿的多边形法线问题，造成作色不能很好的看出效果。贯穿解决效果如图：  
-![guanchuan](https://github.com/geekzzz/IntervalScanLine/blob/master/preview/1.png)  
-3.首先可以根据提示选择加载6中不同obj，然后可以选择显示正面、侧面或顶面，然后将输出过程中各个步骤所使用的时间，示例如图，更多obj可使用程序进行进一步操作，效果图如下：  
+2.首先可以根据提示选择加载6中不同obj，然后可以选择显示正面、侧面或顶面，然后将输出过程中各个步骤所使用的时间，示例如图，更多obj可使用程序进行进一步操作，效果图如下：  
 ![xiaoguo](https://github.com/geekzzz/IntervalScanLine/blob/master/preview/2.png)  
 ![xiaoguo](https://github.com/geekzzz/IntervalScanLine/blob/master/preview/3.png)  
 ![xiaoguo](https://github.com/geekzzz/IntervalScanLine/blob/master/preview/4.png)  
 ![xiaoguo](https://github.com/geekzzz/IntervalScanLine/blob/master/preview/5.png)  
+3.该算法解决了贯穿的问题，可以使用obj进行测试，如果要使用我提供的obj进行贯穿测试，请使用深度值进行作色，否则由于贯穿的多边形法线问题，造成作色不能很好的看出效果。贯穿解决效果如图：  
+![guanchuan](https://github.com/geekzzz/IntervalScanLine/blob/master/preview/1.png)  
