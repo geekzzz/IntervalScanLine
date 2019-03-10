@@ -119,7 +119,7 @@ void show()
 	glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
 	glutInitWindowSize(800, 600);
 	glutInitWindowPosition(50, 80);
-	glutCreateWindow("CG_ÕÅº£Í¯_21721085");
+	glutCreateWindow("CG_geekzzz");
 	glutDisplayFunc(loop);
 	glutMainLoop();
 }
