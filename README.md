@@ -1,6 +1,6 @@
 implement of interval scan line 
 
-数据结构：  
+Data structure：  
 The data structure includes AET, ET, IPL, PT four structures.
 PT is a linked list, which stores the information of the surface.
 AET uses Vector<> to store AET structure nodes
@@ -14,7 +14,7 @@ The interval scanline algorithm is defined in Interval_scanline.cpp and Interval
 (4) void Add_Edge_to_AET();//Every time you enter this scan line for operation, first add the edge in ET.et[y] of the y scan line to AET
 (5) void Update_AET();//Update the edge data in AET
 
-效果
+Results：
 
 ![xiaoguo](https://github.com/geekzzz/IntervalScanLine/blob/master/preview/2.png)  
 Normal shading effect (contrast with depth shading later):
